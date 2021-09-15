@@ -4640,7 +4640,7 @@ DROP TABLE IF EXISTS `m_savings_product`;
 CREATE TABLE IF NOT EXISTS `m_savings_product` (
   `id` BIGINT NOT NULL AUTO_INCREMENT,
   `name` varchar(100) NOT NULL,
-  `short_name` varchar(4) NOT NULL,
+  `short_name` varchar(10) NOT NULL,
   `description` varchar(500) NOT NULL,
   `deposit_type_enum` SMALLINT NOT NULL DEFAULT '100',
   `currency_code` varchar(3) NOT NULL,
